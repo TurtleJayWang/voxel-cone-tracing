@@ -1,9 +1,10 @@
 #pragma once
 
 #define GLEW_STATIC
-#include <glew.h>
+#include <GL/glew.h>
 
 #include <vector>
+#include <string>
 
 // https://www.opengl.org/wiki/Framebuffer_Object_Examples
 /// <summary> An FBO. Manages important OpenGL calls. </summary>

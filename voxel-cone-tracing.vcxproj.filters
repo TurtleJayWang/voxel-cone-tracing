@@ -108,6 +108,9 @@
     <ClInclude Include="Source\Scene\Scenes\GlassScene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Voxelizer\Voxelizer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="voxel-cone-tracing.cpp">

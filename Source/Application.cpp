@@ -7,8 +7,8 @@
 
 // External.
 #define GLEW_STATIC
-#include <glew.h>
-#include <glfw3.h>
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
 
 // Internal.
 #include "Scene\Scene.h"
@@ -157,7 +157,7 @@ void Application::init() {
 	// -------------------------------------
 	// Initialize input.
 	// -------------------------------------
-	glfwSetInputMode(currentWindow, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+	//glfwSetInputMode(currentWindow, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 	glfwSetMouseButtonCallback(currentWindow, GLFWMouseButtonCallback);
 	glfwSetCursorPosCallback(currentWindow, GLFWMousePositionCallback);
 	glfwSetKeyCallback(currentWindow, GLFWKeyCallback);

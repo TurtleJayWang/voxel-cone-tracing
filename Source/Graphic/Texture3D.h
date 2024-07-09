@@ -3,8 +3,9 @@
 #include <vector>
 
 #define GLEW_STATIC
-#include <glew.h>
-#include <glfw3.h>
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
+#include <string>
 #include <SOIL\SOIL.h>
 
 /// <summary> A 3D texture wrapper class. Handles important OpenGL calls. </summary>

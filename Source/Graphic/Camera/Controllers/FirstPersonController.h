@@ -3,9 +3,9 @@
 #include <iostream> // TODO: Remove.
 
 #define GLEW_STATIC
-#include <glew.h>
-#include <glfw3.h>
-#include <gtx/rotate_vector.hpp>
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
+#include <glm/gtx/rotate_vector.hpp>
 
 #include "../../Camera/Camera.h"
 #include "../../../Time/Time.h"

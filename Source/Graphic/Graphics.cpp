@@ -6,8 +6,8 @@
 #include <vector>
 
 // External.
-#include <glm.hpp>
-#include <gtc/type_ptr.hpp>
+#include <glm/glm.hpp>
+#include <glm/gtc/type_ptr.hpp>
 
 // Internal.
 #include "Texture2D.h"

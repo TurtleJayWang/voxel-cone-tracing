@@ -1,12 +1,13 @@
 #pragma once
 
 #include <vector>
+#include <iostream>
 
-#include <glm.hpp>
-#include <gtc\matrix_transform.hpp>
-#include <gtx/transform.hpp>
-#include <mat4x4.hpp>
-#include <gtc/quaternion.hpp>
+#include <glm/glm.hpp>
+#include <glm/gtc\matrix_transform.hpp>
+#include <glm/gtx/transform.hpp>
+#include <glm/mat4x4.hpp>
+#include <glm/gtc/quaternion.hpp>
 
 /// <summary> Represents a transform: rotation, position and scale. </summary>
 class Transform {
